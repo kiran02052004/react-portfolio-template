@@ -44,9 +44,9 @@
           {
             "categoryId": "apps",
             "icon": {
-              "img": "images/pictures/project-logo-1.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
+              "img": null,
+              "fa": "fa-solid fa-cloud-sun",
+              "faColors": { "bg": "#ffffff", "fill": "#00aaff" }
             },
             "links": [
               { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/weatherApp.git" }
