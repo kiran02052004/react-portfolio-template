@@ -1,0 +1,234 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm Kiran Patil!"
+        },
+        "hi": {
+            "title": "स्वागत है!",
+            "title_menu": "मेरे बारे में",
+            "title_long_prefix": "नमस्ते...",
+            "title_long": "मैं किरण पाटील हूँ!"
+        },
+        "mr": {
+            "title": "स्वागत आहे!",
+            "title_menu": "माझ्याबद्दल",
+            "title_long_prefix": "नमस्कार...",
+            "title_long": "मी किरण पाटील आहे!"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "hi": {},
+                "mr": {}
+            },
+            "items": [
+                {
+                    "value": "Shirpur – Maharashtra",
+                    "links": [
+                        {
+                            "href": null
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "kiranpatil452004@gmail.com",
+                    "links": [
+                        {
+                            "href": "mailto:kiranpatil452004@gmail.com"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "@kiran02052004",
+                    "links": [
+                        {
+                            "href": "https://github.com/kiran02052004"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "hi": {
+                    "title": "**थोड़ा बहुत** मेरे बारे में..."
+                },
+                "mr": {
+                    "title": "**थोडंसं** माझ्याबद्दल..."
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a Computer Engineering student with a strong passion for web development and software engineering.</b><p>I have hands-on experience in HTML, CSS, JavaScript, React, Node.js, and databases like MySQL and MongoDB. I have worked on several projects, including e-commerce platforms, portfolio websites, and full-stack applications</p><p>I'm excited to collaborate with you and bring your ideas to life!</p>"
+                        },
+                        "hi": {
+                            "text": "<p>मैं वेब विकास और सॉफ्टवेयर इंजीनियरिंग के लिए एक मजबूत जुनून के साथ एक कंप्यूटर इंजीनियरिंग छात्र हूँ।</p><p>मुझे HTML, CSS, JavaScript, React, Node.js, और MySQL और MongoDB जैसे डेटाबेस का व्यावहारिक अनुभव है। मैंने कई परियोजनाओं पर काम किया है, जिनमें ई-कॉमर्स प्लेटफॉर्म, पोर्टफोलियो वेबसाइट और फुल-स्टैक एप्लिकेशन शामिल हैं।</p><p>मैं आपके साथ सहयोग करने और आपके विचारों को जीवन में लाने के लिए उत्साहित हूँ!</p>"
+                        },
+                        "mr": {
+                            "text": "<p>मी वेब डेव्हलपमेंट आणि सॉफ्टवेअर इंजिनिअरिंगमध्ये प्रचंड आवड असलेली संगणक अभियांत्रिकीची विद्यार्थी आहे.</p><p>मला HTML, CSS, JavaScript, React, Node.js, आणि MySQL आणि MongoDB यांसारख्या डेटाबेसचा प्रत्यक्ष अनुभव आहे. मी अनेक प्रकल्पांवर काम केले आहे, ज्यात ई-कॉमर्स प्लॅटफॉर्म, पोर्टफोलिओ वेबसाइट्स आणि फुल-स्टॅक अ‍ॅप्लिकेशन्स यांचा समावेश आहे.</p><p>तुमच्यासोबत सहकार्य करण्यासाठी आणि तुमचे कल्पना प्रत्यक्षात आणण्यासाठी मी उत्सुक आहे!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal **interests**"
+                },
+                "hi": {
+                    "title": "वैयक्तिक **स्वारस्ये**"
+                },
+                "mr": {
+                    "title": "वैयक्तिक **आवडी**"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-book-open",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Reading",
+                            "info": "Exploring diverse genres and expanding my perspective.."
+                        },
+                        "hi": {
+                            "title": "पढ़ना",
+                            "info": "विभिन्न शैलियों का अन्वेषण और अपने दृष्टिकोण को विस्तारित करना।"
+                        },
+                        "mr": {
+                            "title": "वाचन",
+                            "info": "विविध शैलींचा अभ्यास आणि दृष्टिकोन विस्तारणे।"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photography",
+                            "info": "Preserving moments with precision and creativity."
+                        },
+                        "hi": {
+                            "title": "फोटोग्राफी",
+                            "info": "रचनात्मकता और सटीकता के साथ पलों को संजोना।"
+                        },
+                        "mr": {
+                            "title": "फोटोग्राफी",
+                            "info": "निर्मितीशीलतेने आणि अचूकतेने क्षण जतन करणे।"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-spa",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Meditation",
+                            "info": "Enhancing well-being through mindfulness and movement."
+                        },
+                        "hi": {
+                            "title": "ध्यान",
+                            "info": "सचेतता और गतिविधियों के माध्यम से भलाई को बढ़ावा देना।"
+                        },
+                        "mr": {
+                            "title": "ध्यान",
+                            "info": "सचेतपणा आणि हालचालींमधून कल्याण वाढवणे।"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        },
+                        "hi": {
+                            "title": "फोटो संपादन",
+                            "info": "रचनात्मक संपादन तकनीकों से फ़ोटो को बेहतर बनाना।"
+                        },
+                        "mr": {
+                            "title": "फोटो संपादन",
+                            "info": "निर्मितीशील संपादन तंत्रांद्वारे फोटो सुधारणा करणे।"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

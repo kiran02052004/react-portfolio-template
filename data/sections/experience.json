@@ -1,0 +1,60 @@
+{
+    "locales": {
+        "en": {
+            "title": "Internship",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Internship** Experience"
+        },
+        "hi": {
+            "title": "इंटर्नशिप",
+            "title_long_prefix": "मेरी",
+            "title_long": "**इंटर्नशिप** का सारांश"
+        },
+        "mr": {
+            "title": "इंटर्नशिप",
+            "title_long_prefix": "माझ्या",
+            "title_long": "**इंटर्नशिप**चा सारांश"
+        }
+    },
+    "articles": [
+        {
+            "id": "internship",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-7.png",
+                        "fa": "",
+                        "faColors": { "bg": null, "fill": null }
+                    },
+                    "dates": {
+                        "start": "08/01/2024",
+                        "end": "10/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Backend Development** Intern",
+                            "info": "R3Sys (Remote)",
+                            "text": "Worked on a Java-based web application, focusing on backend service development and maintenance. Gained practical experience with Java, Servlets, JDBC, and web technologies. Collaborated on application logic, database integration, and feature enhancements for improved performance.",
+                            "tags": ["Java", "Servlets", "JDBC", "Web"]
+                        },
+                        "hi": {
+                            "title": "**बैकएंड डेवलपमेंट** इंटर्न",
+                            "info": "R3Sys (रिमोट)",
+                            "text": "जावा-आधारित वेब एप्लिकेशन पर काम किया, जिसमें बैकएंड सेवा विकास और रखरखाव पर ध्यान केंद्रित किया गया। जावा, सर्वलेट्स, JDBC और वेब तकनीकों के साथ व्यावहारिक अनुभव प्राप्त किया। प्रदर्शन सुधार के लिए एप्लिकेशन लॉजिक, डेटाबेस एकीकरण और फीचर संवर्द्धन पर सहयोग किया।",
+                            "tags": ["Java", "Servlets", "JDBC", "Web"]
+                        },
+                        "mr": {
+                            "title": "**बॅकएंड डेव्हलपमेंट** इंटर्न",
+                            "info": "R3Sys (रिमोट)",
+                            "text": "जावा-आधारित वेब अनुप्रयोगावर काम केले, विशेषतः बॅकएंड सेवा विकास आणि देखभालीवर लक्ष केंद्रित केले. Java, Servlets, JDBC आणि वेब तंत्रज्ञानासह व्यावहारिक अनुभव मिळाला. कार्यक्षमता सुधारण्यासाठी अनुप्रयोग लॉजिक, डेटाबेस एकत्रीकरण आणि फिचर सुधारणा यावर सहकार्य केले.",
+                            "tags": ["Java", "Servlets", "JDBC", "Web"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

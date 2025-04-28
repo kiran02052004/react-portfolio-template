@@ -1,0 +1,116 @@
+{
+    "locales": {
+      "en": {
+        "title": "Contact",
+        "title_long_prefix": "Don't hesitate to",
+        "title_long": "**Contact** Me"
+      },
+      "hi": {
+        "title": "संपर्क करें",
+        "title_long_prefix": "संकोच न करें",
+        "title_long": "**संपर्क** करें"
+      },
+      "mr": {
+        "title": "संपर्क करा",
+        "title_long_prefix": "संकोच करू नका",
+        "title_long": "**संपर्क** करा"
+      }
+    },
+  
+    "articles": [
+      {
+        "id": "contact_form",
+        "component": "ArticleContactForm",
+        "config": {},
+        "locales": {
+          "en": {"title": "Send me a **message**"},
+          "hi": {"title": "मुझे एक **संदेश** भेजें"},
+          "mr": {"title": "मला एक **संदेश** पाठवा"}
+        },
+        "items": null
+      },
+  
+      {
+        "id": "contact_list",
+        "component": "ArticleGrid",
+        "config": {
+          "format": "grid"
+        },
+        "locales": {
+          "en": {"title": "Or if you **prefer**..."},
+          "hi": {"title": "या अगर आप **चाहते हैं**..."},
+          "mr": {"title": "किंवा तुम्ही **इच्छित असाल**..."}
+        },
+        "items": [
+          {
+            "value": "+91 7020318685",
+            "links": [
+              {"href": "tel:7020318685"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-solid fa-phone",
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {"title": "Phone"},
+              "hi": {"title": "फ़ोन"},
+              "mr": {"title": "फोन"}
+            }
+          },
+  
+          {
+            "value": "kiranpatil452004@gmail.com",
+            "links": [
+              {"href": "mailto:kiranpatil452004@gmail.com"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-solid fa-envelope",
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {"title": "E-mail"},
+              "hi": {"title": "ईमेल"},
+              "mr": {"title": "ई-मेल"}
+            }
+          },
+  
+          {
+            "value": "@Kiran-patil",
+            "links": [
+              {"href": "https://www.linkedin.com/in/patil-kiran-120952256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-linkedin",
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {"title": "Linkedin"},
+              "hi": {"title": "लिंक्डइन"},
+              "mr": {"title": "लिंक्डइन"}
+            }
+          },
+  
+          {
+            "value": "@Kiran-patil",
+            "links": [
+              {"href": "https://www.instagram.com/_kiranpatil02_/"}
+            ],
+            "icon": {
+              "img": null,
+              "fa": "fa-brands fa-instagram",
+              "faColors": {"bg": null, "fill": null}
+            },
+            "locales": {
+              "en": {"title": "Instagram"},
+              "hi": {"title": "इंस्टाग्राम"},
+              "mr": {"title": "इंस्टाग्राम"}
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
