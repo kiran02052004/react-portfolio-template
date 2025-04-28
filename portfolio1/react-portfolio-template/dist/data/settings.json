@@ -6,14 +6,14 @@
     "preloader": {
         "enabled": true,
         "title": "React <b>Portfolio</b>",
-        "subtitle": "by Ryan Balieiro"
+        "subtitle": "by <b>Kiran Patil</b>"
     },
 
     "profile": {
-        "name": "Mark Choi",
-        "stylizedName": "<strong>Mark **Choi**</strong>",
+        "name": "Kiran Patil",
+        "stylizedName": "<strong>Kiran Patil</strong>",
         "logoUrl": "images/svg/logo.svg",
-        "profilePictureUrl": "images/pictures/avatar.jpg",
+        "profilePictureUrl": "images/pictures/profile.jpg",
 
         "locales": {
             "en": {"role": "Web Developer"},
@@ -58,22 +58,17 @@
         },
 
         {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
+            "name": "Hindi",
+            "id": "hi",
+            "flagUrl": "images/flags/india.png"
         },
 
         {
-            "name": "Français",
-            "id": "fr",
-            "flagUrl": "images/flags/fr.png"
-        },
-
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "name": "Marathi",
+            "id": "mr",
+            "flagUrl": "images/flags/india.png"
         }
+
     ],
 
     "emailjs": {
