@@ -45,7 +45,7 @@
             "categoryId": "apps",
             "icon": {
               "img": null,
-              "fa": "fa-solid fa-cloud-sun",
+              "fa": "fa-regular fa-cloud-sun",
               "faColors": { "bg": "#ffffff", "fill": "#00aaff" }
             },
             "links": [
