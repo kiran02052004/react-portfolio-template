@@ -30,12 +30,7 @@
             "jsonPath": "/data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
         },
-        {
-            "id": "updates",
-            "categoryId": "more",
-            "jsonPath": "/data/sections/updates.json",
-            "faIcon": "fa-solid fa-rss"
-        },
+    
         {
             "id": "contact",
             "categoryId": "more",
