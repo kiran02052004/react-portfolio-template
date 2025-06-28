@@ -1,0 +1,612 @@
+{
+    "locales": {
+        "en": {
+            "title": "Skills",
+            "title_long_prefix": "Explore",
+            "title_long": "My **Skill Set**"
+        },
+        "hi": {
+            "title": "कौशल",
+            "title_long_prefix": "अन्वेषण करें",
+            "title_long": "मेरा **कौशल सेट**"
+        },
+        "mr": {
+            "title": "कौशल्ये",
+            "title_long_prefix": "अन्वेषण करा",
+            "title_long": "माझे **कौशल्य संच**"
+        }
+    },
+    "articles": [
+        {
+            "id": "capabilities",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-table-columns",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Website** design",
+                            "text": "I can bring your best ideas into life!"
+                        },
+                        "hi": {
+                            "title": "**वेबसाइट** डिज़ाइन",
+                            "text": "मैं आपके बेहतरीन विचारों को जीवन में उतार सकता हूँ!"
+                        },
+                        "mr": {
+                            "title": "**वेबसाइट** डिझाइन",
+                            "text": "मी तुमच्या सर्वोत्तम कल्पनांना प्रत्यक्षात आणू शकतो!"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database** management",
+                            "text": "I can handle your data effectively!"
+                        },
+                        "hi": {
+                            "title": "**डेटाबेस** प्रबंधन",
+                            "text": "मैं आपके डेटा को प्रभावी ढंग से संभाल सकता हूँ!"
+                        },
+                        "mr": {
+                            "title": "**डेटाबेस** व्यवस्थापन",
+                            "text": "मी तुमचा डेटा प्रभावीपणे हाताळू शकतो!"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-lock",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Information **Security**",
+                            "text": "Security is my middle name!"
+                        },
+                        "hi": {
+                            "title": "सूचना **सुरक्षा**",
+                            "text": "सुरक्षा मेरा दूसरा नाम है!"
+                        },
+                        "mr": {
+                            "title": "माहिती **सुरक्षा**",
+                            "text": "सुरक्षा हेच माझं दुसरं नाव आहे!"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "backend_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Backend"
+                },
+                "hi": {
+                    "title": "हिंदी अनुवादित शीर्षक"
+                },
+                "mr": {
+                    "title": "मराठी अनुवादित शीर्षक"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-node-js",
+                        "faColors": {
+                            "bg": "#339933",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "Node.js",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Node.js",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-java",
+                        "faColors": {
+                            "bg": "#007396",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "Java",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Java",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-python",
+                        "faColors": {
+                            "bg": "#306998",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "Python",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Python",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {
+                            "bg": "#4479A1",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "MySQL",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "MySQL",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-php",
+                        "faColors": {
+                            "bg": "#FFD700",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PHP",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "PHP",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "PHP",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {
+                            "bg": "#47A248",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 50,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "MongoDB",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {
+                            "bg": "#F05032",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "Git",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Git",
+                            "text": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "front_end_programming",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Frontend"
+                },
+                "hi": {
+                    "title": "हिंदी अनुवादित शीर्षक"
+                },
+                "mr": {
+                    "title": "मराठी अनुवादित शीर्षक"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-html5",
+                        "faColors": {
+                            "bg": "#E34F26",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "HTML5",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "HTML5",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-css3",
+                        "faColors": {
+                            "bg": "#1572B6",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 85,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "CSS3",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "CSS3",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {
+                            "bg": "#F7DF1E",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "JavaScript",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "JavaScript",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {
+                            "bg": "#61DAFB",
+                            "fill": "#111"
+                        }
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "React",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "React",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/express-js.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Express.js",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "Express.js",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Express.js",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-bootstrap",
+                        "faColors": {
+                            "bg": "#7952B3",
+                            "fill": "#EEE"
+                        }
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        },
+                        "hi": {
+                            "title": "Bootstrap",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Bootstrap",
+                            "text": null
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "languages",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "hi": {
+                    "title": "हिंदी अनुवादित शीर्षक"
+                },
+                "mr": {
+                    "title": "मराठी अनुवादित शीर्षक"
+                }
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/flags/en.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "info": "Fluent in both spoken and written English; confident in professional communication.",
+                            "tags": [
+                                "Fluent"
+                            ]
+                        },
+                        "hi": {
+                            "title": "English",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "English",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/india.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Hindi",
+                            "info": "Fluent in both spoken and written Hindi; confident in professional communication.",
+                            "tags": [
+                                "Fluent"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Hindi",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Hindi",
+                            "text": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/flags/india.png",
+                        "fa": null,
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "value": null,
+                    "dates": {
+                        "start": null
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Marathi",
+                            "info": "Native speaker with excellent communication and writing skills.",
+                            "tags": [
+                                "Native"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Marathi",
+                            "text": null
+                        },
+                        "mr": {
+                            "title": "Marathi",
+                            "text": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

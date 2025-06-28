@@ -1,0 +1,146 @@
+{
+    "locales": {
+      "en": {
+        "title": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My **Portfolio**"
+      },
+      "mr": {
+        "title": "पोर्टफोलिओ",
+        "title_long_prefix": "एक नजर टाका",
+        "title_long": "माझा **पोर्टफोलिओ**"
+      },
+      "hi": {
+        "title": "पोर्टफोलियो",
+        "title_long_prefix": "एक नज़र डालें",
+        "title_long": "मेरा **पोर्टफोलियो**"
+      }
+    },
+    "articles": [
+      {
+        "id": "portfolio",
+        "component": "ArticlePortfolio",
+        "config": {},
+        "locales": {},
+        "categories": [
+          {
+            "id": "apps",
+            "locales": {
+              "en": { "singular": "App", "plural": "Apps" },
+              "mr": { "singular": "अनुप्रयोग", "plural": "अनुप्रयोग" },
+              "hi": { "singular": "ऐप", "plural": "ऐप्स" }
+            }
+          },
+          {
+            "id": "utilities",
+            "locales": {
+              "en": { "singular": "Utility", "plural": "Utilities" },
+              "mr": { "singular": "उपयुक्तता", "plural": "उपयुक्तता" },
+              "hi": { "singular": "उपयोगिता", "plural": "उपयोगिताएं" }
+            }
+          }
+        ],
+        "items": [
+          {
+            "categoryId": "apps",
+            "icon": {
+              "img": null,
+              "fa": "fa-solid fa-cloud-sun",
+              "faColors": { "bg": "#ffffff", "fill": "#00aaff" }
+            },
+            "links": [
+              { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/weatherApp.git" }
+            ],
+            "media": {
+              "youtubeVideo": "",
+              "screenshots": { "aspectRatio": null, "images": [] }
+            },
+            "locales": {
+              "en": {
+                "title": "Weather App",
+                "text": "Built a responsive <b>weather app</b> using the <b>MERN stack</b> that fetches real-time data from OpenWeatherMap API. Includes RESTful backend with Node.js & Express, MongoDB for storage, and a React frontend with Axios integration.",
+                "tags": ["MERN", "Weather", "API"]
+              },
+              "mr": {
+                "title": "हवामान अनुप्रयोग",
+                "text": "<b>OpenWeatherMap API</b> वापरून हवामानाचा डेटा मिळवणारा प्रतिसादक्षम <b>MERN स्टॅक</b> वापरून तयार केलेला अ‍ॅप. Node.js आणि Express सह RESTful बॅकएंड, MongoDB मध्ये डेटा संग्रहण आणि React सह फ्रंटएंड डिझाइन.",
+                "tags": ["MERN", "हवामान", "API"]
+              },
+              "hi": {
+                "title": "मौसम ऐप",
+                "text": "<b>MERN स्टैक</b> का उपयोग कर एक <b>रिस्पॉन्सिव मौसम ऐप</b> बनाया जो OpenWeatherMap API से वास्तविक समय डेटा प्राप्त करता है। Node.js और Express के साथ RESTful बैकएंड, MongoDB और React + Axios का फ्रंटएंड उपयोग किया गया।",
+                "tags": ["MERN", "मौसम", "API"]
+              }
+            }
+          },
+          {
+            "categoryId": "utilities",
+            "icon": {
+              "img": "images/pictures/project-logo-2.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              { "faIcon": "fa-brands fa-github", "href": "https://github.com" }
+            ],
+            "media": {
+              "youtubeVideo": "",
+              "screenshots": { "aspectRatio": null, "images": [] }
+            },
+            "locales": {
+              "en": {
+                "title": "Spam Review Classifier",
+                "text": "Developed a <b>machine learning</b> model in Python using Scikit-learn and TensorFlow to classify spam movie reviews. Applied NLP preprocessing with NLTK, feature extraction using pandas, and visualization using matplotlib and seaborn.",
+                "tags": ["ML", "NLP", "Spam Detection"]
+              },
+              "mr": {
+                "title": "स्पॅम पुनरावलोकन वर्गीकरण",
+                "text": "<b>Python</b> मध्ये <b>मशीन लर्निंग</b> मॉडेल तयार केले, ज्याने स्पॅम चित्रपट पुनरावलोकन वर्गीकृत केले. NLTK सह NLP प्रक्रिया, pandas वापरून फीचर एक्स्ट्रॅक्शन, matplotlib आणि seaborn सह व्हिज्युअलायझेशन.",
+                "tags": ["ML", "NLP", "स्पॅम शोध"]
+              },
+              "hi": {
+                "title": "स्पैम रिव्यू क्लासिफायर",
+                "text": "<b>Python</b> में <b>मशीन लर्निंग</b> मॉडल बनाया जो स्पैम मूवी रिव्यू का वर्गीकरण करता है। NLTK से NLP प्रोसेसिंग, pandas से फीचर एक्सट्रैक्शन और matplotlib व seaborn से परिणामों का विज़ुअलाइज़ेशन किया।",
+                "tags": ["ML", "NLP", "स्पैम डिटेक्शन"]
+              }
+            }
+          },
+
+          {
+            "categoryId": "utilities",
+            "icon": {
+              "img": "images/pictures/project-logo-3.png",
+              "fa": "",
+              "faColors": { "bg": null, "fill": null }
+            },
+            "links": [
+              { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/Fule_Indeed_System.git" }
+            ],
+            "media": {
+              "youtubeVideo": "",
+              "screenshots": { "aspectRatio": null, "images": [] }
+            },
+            "locales": {
+              "en": {
+                "title": "Fuel Indeed System",
+                "text": "Developed a comprehensive <b>Java-based fuel station management system</b> using <b>JDBC</b> and <b>MySQL</b>. It supports <b>CRUD operations</b> for users, inventory, and transactions. Key modules include fuel inventory tracking, billing, transaction logging, and user role management. Integrated with SQL for real-time database operations and applied OOP principles for modular design.",
+                "tags": ["Java", "JDBC", "SQL"]
+              },
+              "mr": {
+                "title": "फ्युएल इंडीड प्रणाली",
+                "text": "<b>Java</b>, <b>JDBC</b>, आणि <b>MySQL</b> वापरून तयार केलेली इंधन स्टेशन व्यवस्थापन प्रणाली. CRUD ऑपरेशन्ससह युजर, इंधन साठा आणि व्यवहार व्यवस्थापन. इन्व्हेंटरी ट्रॅकिंग, बिलिंग सिस्टम, व्यवहार लॉगिंग, आणि युजर मॅनेजमेंट समाविष्ट आहे. SQL द्वारे थेट डेटाबेस संचालनासाठी एकत्रीकरण केलेले.",
+                "tags": ["Java", "JDBC", "SQL"]
+              },
+              "hi": {
+                "title": "फ्यूल इंडीड सिस्टम",
+                "text": "<b>Java</b>, <b>JDBC</b>, और <b>MySQL</b> का उपयोग करके विकसित किया गया एक फ्यूल स्टेशन प्रबंधन सिस्टम। इसमें <b>CRUD</b> ऑपरेशंस, उपयोगकर्ता प्रबंधन, इन्वेंट्री ट्रैकिंग, बिलिंग और लेनदेन मॉड्यूल शामिल हैं। SQL के साथ रीयल-टाइम कनेक्टिविटी और OOP के सिद्धांतों का पालन किया गया है।",
+                "tags": ["Java", "JDBC", "SQL"]
+              }
+            }
+          }
+          
+        ]
+      }
+    ]
+  }
+  

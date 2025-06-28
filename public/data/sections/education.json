@@ -1,0 +1,132 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+        "hi": {
+            "title": "शिक्षा",
+            "title_long_prefix": "यह मेरी है",
+            "title_long": "**शैक्षिक** पृष्ठभूमि"
+        },
+        "mr": {
+            "title": "शिक्षण",
+            "title_long_prefix": "हे माझं आहे",
+            "title_long": "**शैक्षणिक** पार्श्वभूमी"
+        }
+    },
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/rcpit-logo.jpeg",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "2022",
+                        "end": "2026"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "R.C. Patel Institute of Technology, Shirpur",
+                            "text": "Pursuing a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "tags": []
+                        },
+                        "hi": {
+                            "title": "कंप्यूटर साइंस में **स्नातक**",
+                            "info": "आर. सी. पटेल प्रौद्योगिकी संस्थान, शिरपूर",
+                            "text": "मैं कंप्यूटर साइंस में स्नातक की पढ़ाई कर रहा हूँ, जिसमें एल्गोरिदम, डेटा संरचनाएं, सॉफ्टवेयर इंजीनियरिंग, और वेब विकास पर ध्यान केंद्रित किया गया है। विभिन्न प्रोग्रामिंग प्रोजेक्ट्स और बूट कैंप्स के माध्यम से व्यावहारिक अनुभव प्राप्त किया।",
+                            "tags": []
+                        },
+                        "mr": {
+                            "title": "संगणक विज्ञानात **पदवी**",
+                            "info": "आर. सी. पटेल इन्स्टिट्यूट ऑफ टेक्नॉलॉजी, शिरपूर",
+                            "text": "मी संगणक विज्ञानात पदवीचे शिक्षण घेत आहे, ज्यामध्ये अल्गोरिदम, डेटा स्ट्रक्चर्स, सॉफ्टवेअर अभियांत्रिकी, आणि वेब डेव्हलपमेंट यावर लक्ष केंद्रित आहे. विविध प्रोग्रामिंग प्रोजेक्ट्स आणि बूट कॅम्प्समधून प्रत्यक्ष अनुभव मिळवला.",
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/msb-logo.jpeg",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "2015",
+                        "end": "2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "10th Grade ",
+                            "info": "Maharashtra State Board",
+                            "text": "Completed 10th grade with a focus on Mathematics and Science, laying the groundwork for advanced studies in Computer Science and Engineering.",
+                            "tags": []
+                        },
+                        "hi": {
+                            "title": "10वीं कक्षा",
+                            "info": "महाराष्ट्र राज्य बोर्ड",
+                            "text": "मैंने गणित और विज्ञान पर ध्यान केंद्रित करते हुए 10वीं कक्षा पूरी की, जिससे कंप्यूटर साइंस और इंजीनियरिंग की आगे की पढ़ाई की नींव रखी।",
+                            "tags": []
+                        },
+                        "mr": {
+                            "title": "१०वी",
+                            "info": "महाराष्ट्र राज्य मंडळ",
+                            "text": "मी गणित आणि विज्ञान यावर लक्ष केंद्रित करत १०वी पूर्ण केली, ज्यामुळे संगणक विज्ञान आणि अभियांत्रिकीसाठी पायाभूत तयारी झाली.",
+                            "tags": []
+                            
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/msb-logo.jpeg",
+                        "fa": "",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    },
+                    "dates": {
+                        "start": "2020",
+                        "end": "2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "12th Grade",
+                            "info": "Maharashtra State Board",
+                            "text": "Completed 12th grade with a focus on Physics, Chemistry, and Mathematics, further solidifying my foundation for a career in Computer Science and Engineering.",
+                            "tags": []
+                        },
+                        "hi": {
+                            "title": "12वीं कक्षा",
+                            "info": "महाराष्ट्र राज्य बोर्ड",
+                            "text": "मैंने भौतिकी, रसायन और गणित पर ध्यान केंद्रित करते हुए 12वीं पूरी की, जिससे कंप्यूटर साइंस और इंजीनियरिंग में करियर के लिए एक मजबूत आधार तैयार हुआ।",
+                            "tags": []
+                        },
+                        "mr": {
+                            "title": "१२वी",
+                            "info": "महाराष्ट्र राज्य मंडळ",
+                            "text": "मी भौतिकशास्त्र, रसायनशास्त्र आणि गणित या विषयांवर लक्ष केंद्रित करत १२वी पूर्ण केली, ज्यामुळे संगणक विज्ञान आणि अभियांत्रिकी क्षेत्रात करिअरसाठी मजबूत पाया तयार झाला.",
+                            "tags": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
