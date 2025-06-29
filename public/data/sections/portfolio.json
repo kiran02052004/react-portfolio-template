@@ -1,21 +1,22 @@
 {
-    "locales": {
-      "en": {
-        "title": "Portfolio",
-        "title_long_prefix": "Take a look at",
-        "title_long": "My **Portfolio**"
-      },
-      "mr": {
-        "title": "पोर्टफोलिओ",
-        "title_long_prefix": "एक नजर टाका",
-        "title_long": "माझा **पोर्टफोलिओ**"
-      },
-      "hi": {
-        "title": "पोर्टफोलियो",
-        "title_long_prefix": "एक नज़र डालें",
-        "title_long": "मेरा **पोर्टफोलियो**"
-      }
+  "locales": {
+    "en": {
+      "title": "Projects",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Projects**"
     },
+    "mr": {
+      "title": "प्रोजेक्ट्स",
+      "title_long_prefix": "एक नजर टाका",
+      "title_long": "माझे **प्रोजेक्ट्स**"
+    },
+    "hi": {
+      "title": "प्रोजेक्ट्स",
+      "title_long_prefix": "एक नज़र डालें",
+      "title_long": "मेरे **प्रोजेक्ट्स**"
+    }
+  },
+
     "articles": [
       {
         "id": "portfolio",

@@ -10,20 +10,32 @@ import GalleryModal from "/src/components/modals/GalleryModal.jsx"
 import Notifications from "/src/components/feedbacks/Notifications.jsx"
 import ConfirmationWindow from "/src/components/modals/ConfirmationWindow.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
+// import ResumeButton from "/src/components/ResumeButton.jsx";
 
 function App() {
-    const {listImagesForCache} = useData()
-
-    const imageList = listImagesForCache()
+    const { listImagesForCache } = useData();
+    const imageList = listImagesForCache();
 
     return (
         <div className={`app-wrapper`}>
-            <AppFeedbacks/>
-            <ImageCache urls={imageList}/>
-            <Portfolio/>
+            <AppFeedbacks />
+            <ImageCache urls={imageList} />
+
+    {/* <div className="App">
+      <DownloadResume data={resumeData} />
+    </div> */}
+  
+            {/* ✅ Add Resume Button here
+            <div className="flex justify-center">
+                <ResumeButton />
+            </div> */}
+
+            <Portfolio />
         </div>
-    )
+    );
 }
+
+
 
 function AppFeedbacks() {
     const {
