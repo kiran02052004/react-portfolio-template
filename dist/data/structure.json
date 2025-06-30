@@ -30,7 +30,6 @@
             "jsonPath": "/data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
         },
-    
         {
             "id": "contact",
             "categoryId": "more",

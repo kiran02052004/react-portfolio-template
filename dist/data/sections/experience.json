@@ -1,60 +1,124 @@
 {
-    "locales": {
-        "en": {
-            "title": "Internship",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Internship** Experience"
-        },
-        "hi": {
-            "title": "इंटर्नशिप",
-            "title_long_prefix": "मेरी",
-            "title_long": "**इंटर्नशिप** का सारांश"
-        },
-        "mr": {
-            "title": "इंटर्नशिप",
-            "title_long_prefix": "माझ्या",
-            "title_long": "**इंटर्नशिप**चा सारांश"
-        }
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Experience** Experience"
     },
-    "articles": [
+    "hi": {
+      "title": "अनुभव",
+      "title_long_prefix": "मेरे",
+      "title_long": "**अनुभव** का सारांश"
+    },
+    "mr": {
+      "title": "अनुभव",
+      "title_long_prefix": "माझा",
+      "title_long": "**अनुभव**चा सारांश"
+    }
+  },
+
+
+  "articles": [
+    {
+      "id": "internship",
+      "component": "ArticleTimeline",
+      "config": {},
+      "locales": {},
+      "items": [
         {
-            "id": "internship",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-7.png",
-                        "fa": "",
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "dates": {
-                        "start": "08/01/2024",
-                        "end": "10/01/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend Development** Intern",
-                            "info": "R3Sys (Remote)",
-                            "text": "Worked on a Java-based web application, focusing on backend service development and maintenance. Gained practical experience with Java, Servlets, JDBC, and web technologies. Collaborated on application logic, database integration, and feature enhancements for improved performance.",
-                            "tags": ["Java", "Servlets", "JDBC", "Web"]
-                        },
-                        "hi": {
-                            "title": "**बैकएंड डेवलपमेंट** इंटर्न",
-                            "info": "R3Sys (रिमोट)",
-                            "text": "जावा-आधारित वेब एप्लिकेशन पर काम किया, जिसमें बैकएंड सेवा विकास और रखरखाव पर ध्यान केंद्रित किया गया। जावा, सर्वलेट्स, JDBC और वेब तकनीकों के साथ व्यावहारिक अनुभव प्राप्त किया। प्रदर्शन सुधार के लिए एप्लिकेशन लॉजिक, डेटाबेस एकीकरण और फीचर संवर्द्धन पर सहयोग किया।",
-                            "tags": ["Java", "Servlets", "JDBC", "Web"]
-                        },
-                        "mr": {
-                            "title": "**बॅकएंड डेव्हलपमेंट** इंटर्न",
-                            "info": "R3Sys (रिमोट)",
-                            "text": "जावा-आधारित वेब अनुप्रयोगावर काम केले, विशेषतः बॅकएंड सेवा विकास आणि देखभालीवर लक्ष केंद्रित केले. Java, Servlets, JDBC आणि वेब तंत्रज्ञानासह व्यावहारिक अनुभव मिळाला. कार्यक्षमता सुधारण्यासाठी अनुप्रयोग लॉजिक, डेटाबेस एकत्रीकरण आणि फिचर सुधारणा यावर सहकार्य केले.",
-                            "tags": ["Java", "Servlets", "JDBC", "Web"]
-                        }
-                    }
-                }
-            ]
+          "icon": {
+            "img": "images/pictures/place-7.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "01/01/2025",
+            "end": "01/31/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "**Employability Skill Development** Program",
+              "info": "RPG Foundation & Zensar Technologies at RCPIT",
+              "text": "Worked on various projects to gain practical experience in modern technologies and frameworks. Enhanced interview readiness and soft skills. Gained hands-on exposure to Java, SQL, and Python.",
+              "tags": ["Java", "SQL", "Python", "Soft Skills"]
+            },
+            "hi": {
+              "title": "**एम्प्लॉयबिलिटी स्किल डेवलपमेंट** प्रोग्राम",
+              "info": "RPG Foundation और Zensar Technologies @ RCPIT",
+              "text": "आधुनिक तकनीकों और फ्रेमवर्क्स पर विभिन्न प्रोजेक्ट्स पर काम किया। इंटरव्यू की तैयारी और सॉफ्ट स्किल्स में सुधार हुआ। Java, SQL और Python का व्यावहारिक अनुभव प्राप्त किया।",
+              "tags": ["Java", "SQL", "Python", "Soft Skills"]
+            },
+            "mr": {
+              "title": "**नोकरी कौशल्य विकास** कार्यक्रम",
+              "info": "RPG Foundation आणि Zensar Technologies @ RCPIT",
+              "text": "आधुनिक तंत्रज्ञान व फ्रेमवर्कवर प्रोजेक्ट करून व्यावहारिक अनुभव मिळवला. मुलाखतीसाठी तयारी आणि सॉफ्ट स्किल्स सुधारल्या. Java, SQL आणि Python मध्ये अनुभव मिळवला.",
+              "tags": ["Java", "SQL", "Python", "Soft Skills"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-7.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "01/01/2025",
+            "end": "04/30/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "**Infosys Springboard Pragati Path: Cohort 4**",
+              "info": "Infosys Springboard (Remote)",
+              "text": "A hybrid internship focused on IT specialization, covering digital dexterity, Gen AI fluency, leadership, and real-world industry projects. Gained experience with Java and Python.",
+              "tags": ["Java", "Python", "Gen AI", "Leadership"]
+            },
+            "hi": {
+              "title": "**इन्फोसिस स्प्रिंगबोर्ड प्रगति पथ: कोहोर्ट 4**",
+              "info": "Infosys Springboard (रिमोट)",
+              "text": "एक हाइब्रिड इंटर्नशिप जो आईटी में विशेषज्ञता, डिजिटल दक्षता, जनरल एआई की समझ, नेतृत्व कौशल और उद्योग परियोजनाओं पर केंद्रित थी। Java और Python का अनुभव प्राप्त हुआ।",
+              "tags": ["Java", "Python", "Gen AI", "Leadership"]
+            },
+            "mr": {
+              "title": "**इन्फोसिस स्प्रिंगबोर्ड प्रगती पथ: कोहोर्ट 4**",
+              "info": "Infosys Springboard (रिमोट)",
+              "text": "IT मध्ये स्पेशलायझेशनसह एक हायब्रिड इंटर्नशिप – डिजिटल कौशल्य, जन AI साक्षरता, नेतृत्व विकास आणि उद्योग प्रकल्पांवर लक्ष केंद्रित. Java व Python मध्ये काम केले.",
+              "tags": ["Java", "Python", "Gen AI", "Leadership"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-7.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "08/01/2024",
+            "end": "10/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "**Backend Development** Intern",
+              "info": "R3Sys (Remote)",
+              "text": "Worked on a Java-based web application, focusing on backend service development and maintenance. Gained practical experience with Java, Servlets, JDBC, and web technologies. Collaborated on application logic, database integration, and feature enhancements for improved performance.",
+              "tags": ["Java", "Servlets", "JDBC", "Web"]
+            },
+            "hi": {
+              "title": "**बैकएंड डेवलपमेंट** इंटर्न",
+              "info": "R3Sys (रिमोट)",
+              "text": "जावा-आधारित वेब एप्लिकेशन पर काम किया, जिसमें बैकएंड सेवा विकास और रखरखाव पर ध्यान केंद्रित किया गया। जावा, सर्वलेट्स, JDBC और वेब तकनीकों के साथ व्यावहारिक अनुभव प्राप्त किया। प्रदर्शन सुधार के लिए एप्लिकेशन लॉजिक, डेटाबेस एकीकरण और फीचर संवर्द्धन पर सहयोग किया।",
+              "tags": ["Java", "Servlets", "JDBC", "Web"]
+            },
+            "mr": {
+              "title": "**बॅकएंड डेव्हलपमेंट** इंटर्न",
+              "info": "R3Sys (रिमोट)",
+              "text": "जावा-आधारित वेब अनुप्रयोगावर काम केले, विशेषतः बॅकएंड सेवा विकास आणि देखभालीवर लक्ष केंद्रित केले. Java, Servlets, JDBC आणि वेब तंत्रज्ञानासह व्यावहारिक अनुभव मिळाला. कार्यक्षमता सुधारण्यासाठी अनुप्रयोग लॉजिक, डेटाबेस एकत्रीकरण आणि फिचर सुधारणा यावर सहकार्य केले.",
+              "tags": ["Java", "Servlets", "JDBC", "Web"]
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
