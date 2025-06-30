@@ -1,21 +1,22 @@
 {
-    "locales": {
-      "en": {
-        "title": "Portfolio",
-        "title_long_prefix": "Take a look at",
-        "title_long": "My **Portfolio**"
-      },
-      "mr": {
-        "title": "पोर्टफोलिओ",
-        "title_long_prefix": "एक नजर टाका",
-        "title_long": "माझा **पोर्टफोलिओ**"
-      },
-      "hi": {
-        "title": "पोर्टफोलियो",
-        "title_long_prefix": "एक नज़र डालें",
-        "title_long": "मेरा **पोर्टफोलियो**"
-      }
+  "locales": {
+    "en": {
+      "title": "Projects",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Projects**"
     },
+    "mr": {
+      "title": "प्रोजेक्ट्स",
+      "title_long_prefix": "एक नजर टाका",
+      "title_long": "माझे **प्रोजेक्ट्स**"
+    },
+    "hi": {
+      "title": "प्रोजेक्ट्स",
+      "title_long_prefix": "एक नज़र डालें",
+      "title_long": "मेरे **प्रोजेक्ट्स**"
+    }
+  },
+
     "articles": [
       {
         "id": "portfolio",
@@ -42,12 +43,13 @@
         ],
         "items": [
           {
-            "categoryId": "apps",
-            "icon": {
-              "img": "images/pictures/project-logo-1.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
-            },
+  "categoryId": "apps",
+  "icon": {
+    "img": "images/pictures/weather.jpg",
+    "fa": "",
+    "faColors": { "bg": "#ffffff", "fill": "#00aaff" }
+  },
+
             "links": [
               { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/weatherApp.git" }
             ],
@@ -74,12 +76,13 @@
             }
           },
           {
-            "categoryId": "utilities",
-            "icon": {
-              "img": "images/pictures/project-logo-2.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
-            },
+  "categoryId": "utilities",
+  "icon": {
+    "img": "images/pictures/spam.jpeg",
+    "fa": "",
+    "faColors": { "bg": null, "fill": null }
+  },
+
             "links": [
               { "faIcon": "fa-brands fa-github", "href": "https://github.com" }
             ],
@@ -107,12 +110,13 @@
           },
 
           {
-            "categoryId": "utilities",
-            "icon": {
-              "img": "images/pictures/project-logo-3.png",
-              "fa": "",
-              "faColors": { "bg": null, "fill": null }
-            },
+  "categoryId": "utilities",
+  "icon": {
+    "img": "images/pictures/fuel.jpg",
+    "fa": "",
+    "faColors": { "bg": null, "fill": null }
+  },
+
             "links": [
               { "faIcon": "fa-brands fa-github", "href": "https://github.com/kiran02052004/Fule_Indeed_System.git" }
             ],
